@@ -1,0 +1,21 @@
+# Local
+.DS_Store
+.env
+.env.*
+!.env.example
+*.local
+*.log*
+
+# Dist
+node_modules
+dist/
+.next/
+build/
+.react-router/
+.vercel
+_ref-tichxanh/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
